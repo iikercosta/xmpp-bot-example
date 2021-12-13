@@ -1,4 +1,4 @@
-# xmpp-client
+# xmpp-bot-example
 
 Ejemplo de un bot XMPP que devuelve datos del covid referidos a Euskadi.
 
