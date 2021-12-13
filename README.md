@@ -8,11 +8,11 @@ Instalar librería slixmpp (soporte de XMPP en python)
 
 `pip3 install slixmpp`
 
-Instalar servidor ejabberd
+Instalar servidor XMPP ejabberd
 
 `sudo apt install ejabberd`
 
-Registrar el JID del bot en el servidor
+Registrar el JID del bot en el servidor XMPP ejabberd
 
 `sudo ejabberdctl register data-bot <vhost> <contraseña>`
 
