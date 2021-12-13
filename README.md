@@ -1,6 +1,9 @@
 # xmpp-bot-example
 
-Ejemplo de un bot XMPP que devuelve datos del covid referidos a Euskadi.
+Ejemplo de un bot XMPP que devuelve datos del Covid-19 referidos a Euskadi.
+
+El evento que activa la comunicación de los datos es un mensaje de otro cliente XMPP
+que contenga la palabra "datos".
 
 ## Setup
 
@@ -15,6 +18,8 @@ Instalar servidor XMPP ejabberd
 Registrar el JID del bot en el servidor XMPP ejabberd
 
 `sudo ejabberdctl register data-bot <vhost> <contraseña>`
+
+
 
 
 
